@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inventory_Management_System</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<header>
+<h1>Inventory Management System</h1>
+</header>
+
+<main>
+<h2>Inventory List</h2>
+<table border="1">
+<thead>
+<tr>
+<th>Product_Id</th>
+<th>Product_Name</th>
+<th>Product_Quantity</th>
+<th>Product_Price</th>
+<th>Product_Category</th>
+</tr>
+</thead>
+<tbody id="product-list">
+
+</tbody>
+</table>
+
+<div class="add-product-form">
+<h3>Add New Product</h3>
+<label for="product-name">Product Name:</label>
+<input type="text" id="product-name" placeholder="Enter product name">
+<br>
+<label for="product-quantity">Quantity:</label>
+<input type="number" id="product-quantity" placeholder="Enter quantity">
+<br>
+<label for="product-price">Price ($):</label>
+<input type="number" id="product-price" placeholder="Enter price" step="0.01">
+<br>
+<button id="add-product-btn">Add Product</button>
+</div>
+</main>
+<div class="footer">
+    <footer>
+        <div class="cpy_">
+            <p class="mx-auto">
+              Created By Areesha Kainat <br />
+              <a href="https://www.linkedin.com/in/areesha-kainat/"
+                ><i
+                  class="fa fa-linkedin-square"
+                  style="font-size: 28px; color: rgb(4, 0, 255)"
+                ></i
+              ></a>
+              <a href="https://github.com/Areeesha-Kainat">
+                <i
+                  class="fa fa-github"
+                  style="font-size: 28px; color: rgb(255, 255, 255)"
+                ></i
+              ></a>
+            </p>
+          </div>
+        </footer>
+</div>
+</div>
+
+
+<script src="script.js"></script> 
+</body>
+</html>
+
+
+
+
+     
